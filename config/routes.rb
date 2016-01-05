@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  resources :contacts #generate few URL for us
+  resources :contacts 
   get '/about' => 'pages#about'
   root 'pages#home'
   
-  # This file is about all our pages that we have on our website
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
