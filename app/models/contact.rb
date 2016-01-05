@@ -1,4 +1,4 @@
-class Contact <ActiveReport::Base
+class Contact < ActiveRecord::Base
     
 end
     
