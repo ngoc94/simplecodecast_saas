@@ -40,6 +40,7 @@ gem 'devise', '~>3.4.1'
 
 # Use Stripe for handling Credit Card payment
 gem 'stripe','~>1.16.1'
+gem 'stripe_event', '~>0.6.0'
 
 # User figaro to hide secret keys
 gem 'figaro', '~>1.0.0'
