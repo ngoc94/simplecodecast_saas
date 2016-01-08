@@ -1,6 +1,7 @@
-<%= @users.count %><br/>
 <div class="row">
     <div class="col-md-8 col-md-offset-2">  
+    <h1 class="center-text">Dev Match Community</h1>
+    <p class="center-text">Welcome to the Dev Match community. Users must fill out a profile in order to visible in the community.</p>
         <ul class="list-unstyled">
             <% @users.each do |user|%>
                    <% if user.profile %>
