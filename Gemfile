@@ -46,8 +46,12 @@ gem 'stripe_event', '~>0.6.0'
 gem 'figaro', '~>1.0.0'
 
 
-# Uesr paperclip for image uploads
+# User paperclip for image uploads
 gem 'paperclip', '~>4.2.1'
+
+
+# Auto Prefixer for image gem
+gem 'autoprefixer-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
